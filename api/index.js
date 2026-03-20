@@ -13,11 +13,9 @@ export default async function handler(req, res) {
     } catch (e) {}
 
     const response = {
-        key: {
             ok: true,
             expiryMs: 4102444800000,
             remainingMs: 9700956
-        }
     };
 
     res.status(200).json(response);
