@@ -15,8 +15,8 @@ export default async function handler(req, res) {
     const response = {
         key: {
             ok: true,
-            valid: true,
-            expiry_ms: 4102444800000
+            expiryMs: 4102444800000,
+            remainingMs: 9700956
         }
     };
 
